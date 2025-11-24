@@ -1,10 +1,10 @@
 import React, { useMemo, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
-import StatCard from '../components/StatCard';
-import TargetStatCard from '../components/TargetStatCard';
-import { CurrencyDollarIcon, ShoppingCartIcon, UsersIcon, ChartBarIcon, ExclamationIcon, CubeIcon, TruckIcon, PlusIcon, Icon } from '../components/Icon';
+import StatCard from '../../components/StatCard';
+import TargetStatCard from '../../components/TargetStatCard';
+import { CurrencyDollarIcon, ShoppingCartIcon, UsersIcon, ChartBarIcon, ExclamationIcon, CubeIcon, TruckIcon, PlusIcon, Icon } from '../../components/Icon';
 // FIX: Replaced non-existent 'Purchase' type with 'PurchaseInvoice'.
-import { Sale, PurchaseInvoice, EmployeeData, InventoryItem, Product, Branch, Account, Expense, RenewableItem, LeaveRequest, AdvanceRequest, GeneralRequest, DailyBriefingContext, ExpenseCategory, Supplier } from '../types';
+import { Sale, PurchaseInvoice, EmployeeData, InventoryItem, Product, Branch, Account, Expense, RenewableItem, LeaveRequest, AdvanceRequest, GeneralRequest, DailyBriefingContext, ExpenseCategory, Supplier } from '../../types';
 
 interface DashboardProps {
     sales: Sale[];

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { User, Branch, Role, Permission } from '../types';
-import { PERMISSIONS, PERMISSION_GROUPS } from '../constants';
+import { User, Branch, Role, Permission } from '@/types';
+import { PERMISSIONS, PERMISSION_GROUPS } from '@/constants';
 
 interface UserModalProps {
     user: Partial<User> | null;

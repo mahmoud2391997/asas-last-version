@@ -1,5 +1,5 @@
 
-import { Role, Permission } from './types';
+import { Role, Permission } from './types.ts';
 
 export const PERMISSIONS: Record<Role, Permission[]> = {
     [Role.SuperAdmin]: ['purchases:create', 'purchases:read', 'purchases:update', 'purchases:delete', 'sales:create', 'sales:read', 'sales:update', 'sales:delete', 'products:create', 'products:read', 'products:update', 'products:delete', 'employees:create', 'employees:read', 'employees:update', 'employees:delete', 'licenses:create', 'licenses:read', 'licenses:update', 'licenses:delete', 'branches:create', 'branches:read', 'branches:update', 'branches:delete', 'inventory:read', 'inventory:transfer', 'inventory:update', 'inventory:adjust', 'payroll:manage', 'payroll:read', 'reports:read:full', 'settings:manage', 'manufacturing:create', 'manufacturing:read', 'manufacturing:tasks:manage', 'integrations:manage', 'advances:manage', 'general_requests:manage', 'supply_chain:read', 'supply_chain:manage'],
